@@ -19,9 +19,15 @@ public static BufferedReader entrada = new BufferedReader(new InputStreamReader(
 
     public static void main(String[] args) throws IOException {
         int a;
+        int b;
+        int c;
         System.out.println("Indique un valor numeico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de a = " + a);
+        System.out.println("-----------------");
+        System.out.println("Indique un valor numeico");
+        b = Integer.parseInt(entrada.readLine());
+        System.out.println("Valor de b = " + b);
         System.out.println("-----------------");
     }
     
