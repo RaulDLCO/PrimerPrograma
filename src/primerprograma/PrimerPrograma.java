@@ -20,8 +20,6 @@ public static BufferedReader entrada = new BufferedReader(new InputStreamReader(
     public static void main(String[] args) throws IOException {
         int a;
         int b;
-        int c;
-        int d;
         System.out.println("Indique un valor numeico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de a = " + a);
